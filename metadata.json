@@ -1,0 +1,9 @@
+[
+    {
+        "type": "mobile",
+        "store": "google",
+        "description": "GM Mis Viajes",
+        "tracks": ["internal", "production"],
+        "package-name": "com.gm_transport.gm_mis_viajes"
+    }
+]
