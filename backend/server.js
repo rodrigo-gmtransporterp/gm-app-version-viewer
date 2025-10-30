@@ -31,4 +31,8 @@ app.get('/versions', async (req, res) => {
   }
 });
 
+app.get('/health', (req, res) => {
+  res.send('OK');
+});
+
 app.listen(3001, () => console.log('Servidor en http://localhost:3001'));
